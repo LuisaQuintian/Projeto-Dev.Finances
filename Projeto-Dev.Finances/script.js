@@ -107,7 +107,7 @@ const Utils = {
     formatAmount(value) {
 
         value = value * 100
-        return Math.round(values) //arredonda o valor e não buga centavos
+        return Math.round(value) //arredonda o valor e não buga centavos
     },
 
     formatDate(date) {
